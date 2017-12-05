@@ -56,12 +56,20 @@
 			children = (
 				A10ECEE81FCD791B0057545E /* AppDelegate.swift */,
 				A10ECEEA1FCD791B0057545E /* ViewController.swift */,
-				A10ECEEC1FCD791B0057545E /* Main.storyboard */,
+				A10ECF1F1FCE03500057545E /* New Group */,
 				A10ECEEF1FCD791B0057545E /* Assets.xcassets */,
 				A10ECEF11FCD791B0057545E /* LaunchScreen.storyboard */,
 				A10ECEF41FCD791C0057545E /* Info.plist */,
 			);
 			path = PitchPerfect;
+			sourceTree = "<group>";
+		};
+		A10ECF1F1FCE03500057545E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				A10ECEEC1FCD791B0057545E /* Main.storyboard */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

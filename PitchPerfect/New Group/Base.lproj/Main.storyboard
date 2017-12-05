@@ -36,6 +36,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hxl-T9-gxQ" userLabel="Stop Recording">
                                 <rect key="frame" x="110" y="457" width="155" height="155"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="155" id="1b7-6o-177"/>
                                     <constraint firstAttribute="width" secondItem="Hxl-T9-gxQ" secondAttribute="height" multiplier="1:1" id="Lx9-Xz-Jn5"/>
                                     <constraint firstAttribute="height" constant="155" id="vuc-Xr-RAD"/>
                                 </constraints>

@@ -4,7 +4,7 @@
 //
 //  Created by  Anilesh Kant on 11/28/17.
 //  Copyright © 2017 Anilesh Kant. All rights reserved.
-//
+//Add tiles to the upper layer
 
 import UIKit
 
@@ -15,21 +15,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var recording_label: UILabel!
     
     override func viewDidLoad() {
-        @IBOutlet weak var stoprecordingButton: UIButton!
-        @IBOutlet weak var stoprecordingButton: UIButton!
+        weak var stoprecordingButton: UIButton!
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        @IBOutlet weak var recordButton: UIButton!
+        weak var recordButton: UIButton!
         print("viewWillAppear called")
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        <#code#>
-    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
